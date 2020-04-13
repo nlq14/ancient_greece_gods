@@ -1,1 +1,2 @@
-# ancient_greece_gods
+# Ancient Greece Gods
+Family tree of Ancient Greek Gods in GEDCOM format

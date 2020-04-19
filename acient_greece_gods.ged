@@ -2,10 +2,10 @@
 1 SOUR Gramps
 2 VERS GrampsAIO64-5.1.2-1
 2 NAME Gramps
-1 DATE 12 APR 2020
-2 TIME 16:15:05
+1 DATE 19 APR 2020
+2 TIME 11:02:31
 1 SUBM @SUBM@
-1 FILE C:\Users\netuser\Desktop\acient_greece_gods.ged
+1 FILE C:\Users\netuser\Desktop\acient_greece_gods1.ged
 1 COPR Copyright (c) 2020 .
 1 GEDC
 2 VERS 5.5.1
@@ -140,13 +140,72 @@
 1 NAME Gaia //
 2 GIVN Gaia
 1 SEX F
+1 FAMC @F0002@
+2 PEDI birth
 1 FAMS @F0001@
 1 OBJE
 2 FORM URL
 2 FILE https://en.wikipedia.org/wiki/Gaia
 1 CHAN
-2 DATE 12 APR 2020
-3 TIME 12:11:23
+2 DATE 19 APR 2020
+3 TIME 06:52:54
+0 @I0010@ INDI
+1 NAME Chaos //
+2 GIVN Chaos
+1 FAMS @F0002@
+1 OBJE
+2 FORM URL
+2 FILE https://en.wikipedia.org/wiki/Chaos_(cosmogony)
+1 CHAN
+2 DATE 19 APR 2020
+3 TIME 06:52:54
+0 @I0011@ INDI
+1 NAME Tartarus //
+2 GIVN Tartarus
+1 FAMC @F0002@
+2 PEDI birth
+1 OBJE
+2 FORM URL
+2 FILE https://en.wikipedia.org/wiki/Tartarus
+1 CHAN
+2 DATE 19 APR 2020
+3 TIME 06:55:39
+0 @I0012@ INDI
+1 NAME Eros //
+2 GIVN Eros
+1 SEX M
+1 FAMC @F0002@
+2 PEDI birth
+1 OBJE
+2 FORM URL
+2 FILE https://en.wikipedia.org/wiki/Eros
+1 CHAN
+2 DATE 19 APR 2020
+3 TIME 06:58:22
+0 @I0013@ INDI
+1 NAME Nyx //
+2 GIVN Nyx
+1 SEX F
+1 FAMC @F0002@
+2 PEDI birth
+1 OBJE
+2 FORM URL
+2 FILE https://en.wikipedia.org/wiki/Nyx
+1 CHAN
+2 DATE 19 APR 2020
+3 TIME 06:59:11
+0 @I0014@ INDI
+1 NAME Erebus //
+2 GIVN Erebus
+1 SEX M
+1 FAMC @F0002@
+2 PEDI birth
+1 OBJE
+2 FORM URL
+2 FILE https://en.wikipedia.org/wiki/Erebus
+1 CHAN
+2 DATE 19 APR 2020
+3 TIME 07:01:20
 0 @F0000@ FAM
 1 HUSB @I0001@
 1 WIFE @I0002@
@@ -166,4 +225,14 @@
 1 CHAN
 2 DATE 12 APR 2020
 3 TIME 12:11:23
+0 @F0002@ FAM
+1 HUSB @I0010@
+1 CHIL @I0009@
+1 CHIL @I0011@
+1 CHIL @I0012@
+1 CHIL @I0013@
+1 CHIL @I0014@
+1 CHAN
+2 DATE 19 APR 2020
+3 TIME 07:01:20
 0 TRLR

@@ -2,10 +2,10 @@
 1 SOUR Gramps
 2 VERS GrampsAIO64-5.1.2-1
 2 NAME Gramps
-1 DATE 19 APR 2020
-2 TIME 11:02:31
+1 DATE 20 APR 2020
+2 TIME 12:12:36
 1 SUBM @SUBM@
-1 FILE C:\Users\netuser\Desktop\acient_greece_gods1.ged
+1 FILE D:\tim\AncientGreekGods\ancient_greece_gods\acient_greece_gods.ged
 1 COPR Copyright (c) 2020 .
 1 GEDC
 2 VERS 5.5.1
@@ -183,29 +183,57 @@
 2 DATE 19 APR 2020
 3 TIME 06:58:22
 0 @I0013@ INDI
-1 NAME Nyx //
+1 NAME Nyx /AGG/
 2 GIVN Nyx
+2 SPFX AGG
 1 SEX F
 1 FAMC @F0002@
 2 PEDI birth
+1 FAMS @F0003@
 1 OBJE
 2 FORM URL
 2 FILE https://en.wikipedia.org/wiki/Nyx
 1 CHAN
-2 DATE 19 APR 2020
-3 TIME 06:59:11
+2 DATE 20 APR 2020
+3 TIME 08:07:29
 0 @I0014@ INDI
 1 NAME Erebus //
 2 GIVN Erebus
 1 SEX M
 1 FAMC @F0002@
 2 PEDI birth
+1 FAMS @F0003@
 1 OBJE
 2 FORM URL
 2 FILE https://en.wikipedia.org/wiki/Erebus
 1 CHAN
-2 DATE 19 APR 2020
-3 TIME 07:01:20
+2 DATE 20 APR 2020
+3 TIME 08:07:29
+0 @I0015@ INDI
+1 NAME Aether /AGG/
+2 GIVN Aether
+2 SPFX AGG
+1 SEX M
+1 FAMC @F0003@
+2 PEDI birth
+1 OBJE
+2 FORM URL
+2 FILE https://en.wikipedia.org/wiki/Aether_(mythology)
+1 CHAN
+2 DATE 20 APR 2020
+3 TIME 08:07:29
+0 @I0016@ INDI
+1 NAME Keres /AGG/
+2 GIVN Keres
+2 SPFX AGG
+1 FAMC @F0003@
+2 PEDI birth
+1 OBJE
+2 FORM URL
+2 FILE https://en.wikipedia.org/wiki/Keres
+1 CHAN
+2 DATE 20 APR 2020
+3 TIME 08:09:20
 0 @F0000@ FAM
 1 HUSB @I0001@
 1 WIFE @I0002@
@@ -235,4 +263,12 @@
 1 CHAN
 2 DATE 19 APR 2020
 3 TIME 07:01:20
+0 @F0003@ FAM
+1 HUSB @I0014@
+1 WIFE @I0013@
+1 CHIL @I0015@
+1 CHIL @I0016@
+1 CHAN
+2 DATE 20 APR 2020
+3 TIME 08:09:20
 0 TRLR
